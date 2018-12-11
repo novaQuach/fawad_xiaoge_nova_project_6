@@ -30,6 +30,40 @@ h1 {
     font-weight: bold;
     font-style: normal;
     color: $primary-color;
+    margin: 3rem 0 0 0;
+    span {
+        font-size: $large-font-size;
+        display: block;
+        line-height: 0.5;
+        font-style: italic;
+        margin: 0.5rem 0 0rem 0;
+    }
+}
+
+body {
+    font-size: $small-font-size;
+    text-align: center;
+    font-family: $body-font-family;
+    background-color: $background-color;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    div:nth-child(1) {
+        float: left;
+    }
+    div:nth-child(2) {
+        float: right;
+    }
+}
+
+h1 {
+    font-family: $heading-font-family;
+    font-size: $xlarge-font-size;
+    font-weight: bold;
+    font-style: normal;
+    color: $primary-color;
     margin: 3rem 0;
     span {
         font-size: $large-font-size;
@@ -48,12 +82,18 @@ h2 {
     font-weight: normal;
 }
 
-footer{
-  position: relative;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 1rem;
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $quaterary-color;
+    border-top: 1px $primary-color dotted;
+    p {
+        margin: 0.3rem 0;
+        padding: 0;
+        font-size: $small-font-size;
+    }
 }
 
 a {

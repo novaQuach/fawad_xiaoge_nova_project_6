@@ -54,7 +54,6 @@ class App extends Component {
         const axiosArray = randomSet.map((word) => {
             // still keeping the old axios had to use proxy after deploying the firebase app
             // return axios({
-            //     headers: { "Access-Control-Allow-Origin": "http://localhost:3000" },
             //     method: 'GET',
             //     url: `https://api.datamuse.com/words?rel_hom=${word}&md=d`,
             //     dataType: 'json'
@@ -64,8 +63,8 @@ class App extends Component {
                 dataResponse: 'json',
                 method: 'GET',
                 params: {
-                    reqUrl: `https://api.datamuse.com/words?rel_hom=${word}&md=d`
-                }
+                    reqUrl: `https://api.datamuse.com/words?rel_hom=${word}&md=d`,
+                },
             });
         });
 
@@ -88,7 +87,6 @@ class App extends Component {
     counter = null;
 
     updateScore = (score) => {
-
         this.setState((currentState) => {
             return { score: currentState.score + score };
         });
