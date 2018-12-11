@@ -66,6 +66,11 @@ p {
 .question p {
     color: lighten($primary-color, 20);
 }
+.app-header {
+    margin: 2rem 0 4rem 0;
+    color: darken($secondary-color, 30);
+    font-size: $large-font-size;
+}
 .modal-container {
     position: absolute;
     left: 25%;
