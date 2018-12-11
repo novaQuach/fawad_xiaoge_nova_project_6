@@ -55,7 +55,17 @@ p {
     font-size: $medium-font-size;
 }
 
-<<<<<<< HEAD
+a {
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .entry {
     font-size: $medium-font-size;
     color: lighten($primary-color, 15);
@@ -71,34 +81,6 @@ p {
     }
 }
 // horizontal alignment for questions and final form
-=======
-a{
-  text-decoration: none;
-}
-
-footer{
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.entry{
-  font-size: $medium-font-size;
-  color: lighten($primary-color,15);
-  text-align: left;
-}
-.wrapper{
-   max-width: 1600px;
-   width: 80%;
-   margin: 0 auto;
-   color: $secondary-color;
-   @media screen and (max-width: $small-screen){
-     width: 90%;
-   }
-};
-// horizontal alignment for questions and final form 
->>>>>>> b609e85bc402a83179dfafe4b1cd74fe7ccd9048
 // .input-wrapper
 .question {
     max-width: 650px;
@@ -212,11 +194,11 @@ footer{
     display: inline-block;
     margin-top: 1.5rem;
 }
-.dev-name{
-  margin-right: 1rem;
-  font-family: $heading-font-family;
-  font-size: $small-font-size;
-  color: $primary-color;
+.dev-name {
+    margin-right: 1rem;
+    font-family: $heading-font-family;
+    font-size: $small-font-size;
+    color: $primary-color;
 }
 
 svg {
