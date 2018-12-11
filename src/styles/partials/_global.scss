@@ -48,11 +48,12 @@ h2 {
     font-weight: normal;
 }
 
-p {
-    width: 100%;
-    margin: 10px auto;
-    color: lighten($primary-color, 10);
-    font-size: $medium-font-size;
+footer{
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
 }
 
 a {
